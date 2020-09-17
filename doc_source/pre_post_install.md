@@ -113,7 +113,7 @@ If the script was edited on Windows, line endings must be changed from CRLF to L
    ```
    $ less /var/log/cfn-init.log
    2019-04-11 10:43:54,588 [DEBUG] Command runpostinstall output: post-install script has 4 arguments
-   arg: s3://eu-eu-west-1/test.sh
+   arg: s3://<bucket-name>/test.sh
    arg: R
    arg: curl
    arg: wget
